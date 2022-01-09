@@ -128,7 +128,7 @@ Supprimer un USER
 Lien du swaggerHUB : https://app.swaggerhub.com/apis/LadYnov/server-message_api/1.0#/Channel/get_api_Channel 
 
 
------------------------------------------- ## SÉCURITÉ ------------------------------------------
+# SÉCURITÉ
 
 ## Injection / chiffrement des données :
 il faut traiter (Canonicalization, Escaping & Sanitization) et faire valider par l'API (et aussi côté client) les données reçues pour eviter de se retrouver avec des données malicieuses (exemple : SQL injection) qui risquerait de manipuler la base de données
